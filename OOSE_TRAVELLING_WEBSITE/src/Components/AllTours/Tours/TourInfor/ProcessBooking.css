@@ -1,0 +1,217 @@
+.container-content-up {
+    display: flex;
+    flex-direction: row;
+    padding: 32px 112px;
+
+}
+
+.form-infor {
+    width: 67%;
+}
+
+.container-content-up input.form-control,
+.container-content-up textarea.form-control {
+    width: 600px;
+}
+
+.container-content-up select.form-select {
+    width: 600px;
+}
+
+.title {
+    padding-bottom: 50px;
+    font-size: 30px;
+    font-weight: 700;
+    padding-top: 30px;
+
+}
+
+.checkbox-billing-details {
+    padding-top: 30px;
+}
+
+.process-content-up {
+    position: relative;
+}
+
+.process-content-up-title {
+    position: absolute;
+    width: 100%;
+    top: 35%;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    color: white;
+}
+
+.container-content-up button {
+    margin-top: 50px !important;
+    background-color: #f97150 !important;
+    border: none !important;
+    font-weight: 600;
+}
+
+.container-content-up button:hover {
+    background-color: #ff987e !important;
+}
+
+
+.process-component-right {
+    width: 37%;
+    margin: 0px 0px 0px 60px;
+    height: fit-content;
+    border: 1px solid #f4f4f4e1;
+    /* filter: blur(1rem); */
+    padding: 40px;
+    border-radius: 3px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    top: -100px;
+    position: relative;
+    background-color: #ffffff;
+}
+
+.process-component-right-booking-process-price {
+    color: #95999f;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.process-component-right-booking-process-price span {
+    font-size: 45px;
+    margin-left: 15px;
+    color: #000000;
+    font-weight: 700;
+}
+
+.process-component-right-booking-process-title {
+    margin-top: 20px;
+    font-size: 20px;
+    width: 150px;
+
+}
+
+.process-component-right-booking-process-calendar,
+.process-component-right-booking-process-bedroom,
+.process-component-right-booking-process-room,
+.process-component-right-booking-process-button {
+    margin-top: 50px;
+    height: 60px;
+    font-size: 23px;
+}
+
+.process-component-right-booking-process-calendar input,
+.process-component-right-booking-process-bedroom select {
+    padding: 10px;
+    height: 60px;
+    width: 51%;
+    font-size: 20px;
+}
+
+.process-component-right-booking-process-room select {
+    padding: 10px;
+    /* height: 60px;
+    margin-left: 20px; */
+    width: 142px;
+}
+
+.process-component-right-booking-process-button {
+    padding: 15px;
+    font-size: 22px;
+    font-weight: 600;
+    background-color: #f97150;
+    border: none;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.process-component-right-booking-process-button a {
+    color: #fff;
+    text-decoration: none;
+
+}
+
+.process-component-right-booking-process-button:hover {
+    background-color: #ff987e;
+}
+
+.process-component-right-booking-process-bedroom {
+    display: flex;
+    align-items: center;
+
+}
+
+.time-icon {
+
+    margin-right: 8px;
+
+}
+
+label {
+    margin-right: 8px;
+
+}
+
+
+.title-tour {
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+.departureDate,
+.duration,
+.numberOfPeople,
+.numberOfRooms {
+    color: #a3a2a2;
+    padding-bottom: 10px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.departureDate span,
+.duration span,
+.numberOfPeople span,
+.numberOfRooms span {
+    color: #7d7a7a;
+    font-weight: 650;
+}
+
+.totalPrice {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.title-totalPrice {
+    color: #535151;
+    font-weight: 600;
+    font-size: 20px;
+
+}
+
+.icon-price {
+    margin-right: 10px;
+    color: #f97150;
+    font-size: 30px;
+}
+
+.number-title-totalPrice {
+    color: #000000;
+    font-size: 35px;
+    font-weight: 800;
+}
+
+.file-icon {
+    color: #f97150;
+    margin-bottom: 6px;
+    margin-right: 10px;
+}
+
+.thunder-icon {
+    color: #f97150;
+    margin-bottom: 6px;
+    margin-right: 10px;
+}

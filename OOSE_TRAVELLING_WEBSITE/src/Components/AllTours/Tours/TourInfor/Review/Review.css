@@ -1,0 +1,17 @@
+.review-title {
+    font-size: 30px;
+    padding-top: 50px;
+    font-weight: 600;
+}
+
+.container button.btn.btn-primary {
+    margin-top: 12px !important;
+    background-color: #f97150 !important;
+    border: none !important;
+    font-weight: 600;
+
+}
+
+.container button.btn.btn-primary:hover {
+    background-color: #ff987e !important;
+}

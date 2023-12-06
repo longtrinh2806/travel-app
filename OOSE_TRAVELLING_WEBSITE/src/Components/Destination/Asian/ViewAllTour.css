@@ -1,0 +1,17 @@
+.grid-container {
+    display: grid;
+    gap: 26px;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    /* Điều này tạo ra các cột có độ rộng tối thiểu 300px và linh hoạt theo kích thước màn hình */
+    padding: 10px;
+    /* margin-right: 80px;
+    margin-right: 80px; */
+}
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}

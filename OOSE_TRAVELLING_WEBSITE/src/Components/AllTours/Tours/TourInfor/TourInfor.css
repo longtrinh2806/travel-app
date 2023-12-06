@@ -1,0 +1,240 @@
+.tour01-component-down {
+    width: 100%;
+    padding: 2rem 7rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tour01-component-left {
+    width: 60%;
+    padding: 20px;
+}
+
+.tour01-component-left-menubar {
+    width: 100%;
+    display: flex;
+    font-size: 20px;
+    font-weight: 500;
+    color: #95999f;
+    height: 60px;
+    border-bottom: 1px solid #dee6ef;
+}
+
+.tour01-component-left-detail,
+.tour01-component-left-photos,
+.tour01-component-left-itinerary,
+.tour01-component-left-map,
+.tour01-component-left-FAQ,
+.tour01-component-left-Reviews {
+    margin-right: 3.5rem;
+    cursor: pointer;
+}
+
+.tour01-component-left-detail:hover,
+.tour01-component-left-photos:hover,
+.tour01-component-left-itinerary:hover,
+.tour01-component-left-map:hover,
+.tour01-component-left-FAQ:hover,
+.tour01-component-left-Reviews:hover {
+    border-bottom: 4px solid #f26627;
+    color: #000000;
+}
+
+.tour01-component-left-detail-content-title {
+    margin-top: 50px;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.tour01-component-left-detail-content {
+    width: 100%;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #dee6ef;
+}
+
+.tour01-component-left-detail-content-rating {
+    margin-top: 10px;
+    color: #ffa11a;
+    font-size: 25px;
+}
+
+.tour01-component-left-detail-content-day-maxpeople-wifi,
+.tour01-component-left-detail-content-calendar-minAge-pickUp {
+    display: flex;
+    font-size: 20px;
+    justify-content: space-between;
+    /* Duy trì khoảng cách đều giữa các phần tử */
+}
+
+.tour01-component-left-detail-content-calendar-minAge-pickUp {
+    margin-bottom: 50px;
+}
+
+.tour01-component-left-detail-content-day,
+.tour01-component-left-detail-content-maxpeople,
+.tour01-component-left-detail-content-wifi {
+    margin: 15px 5rem 15px 0px;
+    color: #95999f;
+}
+
+.tour01-component-left-detail-content-wifi {
+    margin-left: -32px;
+    /* padding-left: 30px; */
+    margin-right: 12px;
+}
+
+.tour01-component-left-detail-content-calendar,
+.tour01-component-left-detail-content-minAge,
+.tour01-component-left-detail-content-pickUp {
+    /* margin-right: 5.8rem; */
+    color: #95999f;
+}
+
+
+.tour01-component-left-detail-detail {
+    width: 100%;
+    color: #95999f;
+    font-size: 18px;
+    margin: 55px 0px 55px 0px;
+}
+
+.tour01-component-left-detail-list {
+    border-top: 1px solid #dee6ef;
+    width: 100%;
+}
+
+.tour01-component-left-detail-list {
+    width: 100%;
+}
+
+.tour01-component-left-detail-list-departure-location,
+.tour01-component-left-detail-list-departure-time,
+.tour01-component-left-detail-list-bedroom,
+.tour01-component-left-detail-list-bathroom,
+.tour01-component-left-detail-list-price-include,
+.tour01-component-left-detail-list-price-exclude {
+    display: flex;
+    margin: 40px 0px 40px 0px;
+    justify-content: space-between;
+    align-items: center;
+    color: #95999f;
+    font-size: 20px;
+}
+
+.tour01-component-left-detail-list-price-include-list span,
+.tour01-component-left-detail-list-price-exclude span {
+    display: block;
+}
+
+.tour01-component-right {
+    width: 37%;
+    margin: 0px 0px 0px 60px;
+    height: fit-content;
+    border: 1px solid #f4f4f4e1;
+    /* filter: blur(1rem); */
+    padding: 40px;
+    border-radius: 3px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    top: -100px;
+    position: relative;
+    background-color: #ffffff;
+}
+
+.tour01-component-right-booking-process-price {
+    color: #95999f;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.tour01-component-right-booking-process-price span {
+    font-size: 45px;
+    margin-left: 15px;
+    color: #000000;
+    font-weight: 700;
+}
+
+.tour01-component-right-booking-process-title {
+    margin-top: 20px;
+    font-size: 20px;
+    width: 150px;
+
+}
+
+.tour01-component-right-booking-process-calendar,
+.tour01-component-right-booking-process-bedroom,
+.tour01-component-right-booking-process-room,
+.tour01-component-right-booking-process-button {
+    margin-top: 50px;
+    height: 60px;
+    font-size: 23px;
+}
+
+.tour01-component-right-booking-process-calendar input,
+.tour01-component-right-booking-process-bedroom select {
+    padding: 10px;
+    height: 60px;
+    width: 51%;
+    font-size: 20px;
+}
+
+.tour01-component-right-booking-process-room select {
+    padding: 10px;
+    /* height: 60px;
+    margin-left: 20px; */
+    width: 142px;
+}
+
+.tour01-component-right-booking-process-button {
+    padding: 15px;
+    font-size: 22px;
+    font-weight: 600;
+    background-color: #f97150;
+    border: none;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+}
+
+.tour01-component-right-booking-process-button a {
+    color: #fff;
+    text-decoration: none;
+
+}
+
+.tour01-component-right-booking-process-button:hover {
+    background-color: #ff987e;
+}
+
+.tour01-component-right-booking-process-bedroom {
+    display: flex;
+    align-items: center;
+
+}
+
+.time-icon {
+
+    margin-right: 8px;
+
+}
+
+label {
+    margin-right: 8px;
+
+}
+
+.icon-price {
+    font-size: 30px;
+    color: #f97150;
+    margin-bottom: 10px;
+}
+
+.thunder-icon {
+    color: #f97150;
+    margin-bottom: 6px;
+    margin-right: 10px;
+}

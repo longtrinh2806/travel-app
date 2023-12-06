@@ -1,0 +1,555 @@
+.home-introduce {
+    background-image: url('/src/Assets/Images/home.jpg');
+    position: relative;
+
+    height: 550px;
+
+    margin: 0;
+    padding: 0;
+    background-image: url('/src/Assets/Images/home.jpg');
+    background-size: cover;
+    /* Phù hợp với kích thước màn hình và cắt hình ảnh nếu cần */
+    background-repeat: no-repeat;
+    /* Ngăn lặp lại hình ảnh */
+
+}
+
+.introduce-content {
+    position: absolute;
+    text-align: center;
+    top: 30%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.introduce-content .title-1 {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 65px;
+}
+
+.introduce-content .title-2 {
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 25px;
+    padding-bottom: 50px;
+}
+
+.introduce-content .search-form {
+    display: flex;
+    flex-direction: row;
+    /* text-align: center; */
+    gap: 2px;
+
+}
+
+.search-form .search {
+    display: inline-block;
+    position: relative;
+}
+
+.search-form .search input {
+    padding-left: 30px;
+    border: none;
+    padding: 14px 40px 14px 22px;
+    /* Điều chỉnh lề bên phải để tạo không gian cho biểu tượng */
+    font-size: 16px;
+    width: 200px;
+    outline: none;
+    height: 65px;
+    width: 213px;
+}
+
+.search-form .search .search-icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
+    /* Điều chỉnh khoảng cách từ bên phải */
+    color: gray;
+    cursor: pointer;
+}
+
+.search-form .destination {
+    padding: 14px 22px;
+    border: none;
+    outline: none;
+    height: 65px;
+    width: 213px;
+    color: gray;
+    font-size: 17px;
+    cursor: pointer;
+
+}
+
+
+.search-form .duration {
+    padding: 14px 22px;
+    border: none;
+    outline: none;
+    height: 65px;
+    width: 213px;
+    color: gray;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.search-form .search-submit {
+    padding: 14px 22px;
+    border: none;
+    outline: none;
+    height: 65px;
+    width: 195px;
+
+    font-size: 17px;
+    color: #f5f5f5;
+    font-weight: 600;
+    background-color: #fa7b57;
+    cursor: pointer;
+}
+
+.search-form .search-submit:hover {
+    background-color: #c23811;
+
+}
+
+.home-wrapper {
+    margin: 0 75px;
+    padding: 50px 80px;
+    margin-top: -40px;
+    background-color: #fa7b57;
+    color: #ffffff;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    border-radius: 3px;
+
+}
+
+.home-wrapper .destination,
+.home-wrapper .price,
+.home-wrapper .support {
+    display: flex;
+    flex-direction: row;
+    width: 34%;
+
+}
+
+.destination-content,
+.price-content,
+.support-content {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.world-icon,
+.discount-icon,
+.people-icon {
+    width: 51px;
+    height: 51px;
+    margin-right: 20px;
+    margin-top: -10px;
+}
+
+.home-wrapper h4 {
+    padding-bottom: 25px;
+}
+
+
+.home-popular-destination .popular-destination-title {
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 70px;
+}
+
+.home-popular-destination .view-all-destination {
+    color: #fa7b57;
+    font-size: 18px;
+    text-align: center;
+    padding-bottom: 50px;
+    /* display: flex;
+    flex-direction: row; */
+    margin-top: 15px;
+}
+
+.arrow-icon {
+    margin-bottom: -5px;
+    margin-left: 10px;
+}
+
+.home-popular-tours .home-popular-tours-title {
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 70px;
+}
+
+.home-popular-tours .view-all-popular-tours {
+    color: #fa7b57;
+    font-size: 18px;
+    text-align: center;
+    padding-bottom: 50px;
+    /* display: flex;
+    flex-direction: row; */
+    margin-top: 15px;
+}
+
+.home-discount {
+    width: 1190px;
+    height: 340px;
+    display: flex;
+    flex-direction: row;
+    margin: 0 80px 80px;
+    border-radius: 5px;
+}
+
+.home-discount-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 50%;
+    padding: 50px 0;
+    background-color: #fa7b57;
+    border-radius: 3px 0 0 3px;
+}
+
+.home-discount-content .content-1 {
+    font-weight: 900;
+    padding-bottom: 25px;
+    font-size: 18px;
+    color: #fed7c8;
+}
+
+.home-discount-content .content-2 {
+    font-weight: 900;
+    padding-bottom: 25px;
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.home-discount-content .content-3 {
+
+    padding-bottom: 25px;
+
+}
+
+.home-discount-content .content-3 button {
+    background-color: #1e354c;
+    color: #ffffff;
+    border-radius: 3px;
+    font-weight: 600;
+    padding: 13px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.home-discount-content .content-4 {
+    color: #fed7c8;
+    padding-bottom: 25px;
+
+}
+
+.home-discount-content .content-5 {
+    color: #fed7c8;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+
+.home-discount-image {
+    width: 50%;
+}
+
+.home-discount-image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 0 3px 3px 0
+}
+
+
+.home-recommend .home-recommend-title {
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+.home-recommend .view-all-recommended {
+    color: #fa7b57;
+    font-size: 18px;
+    text-align: center;
+    padding-bottom: 50px;
+    /* display: flex;
+    flex-direction: row; */
+    margin-top: 15px;
+}
+
+
+.home-hightligth {
+    width: auto;
+    height: 575px;
+    position: relative;
+    /* margin-top: 50px; */
+    margin-bottom: 80px;
+}
+
+.home-hightligth img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.hightligth-content {
+    position: absolute;
+    text-align: center;
+    top: 30%;
+    width: 100%;
+
+}
+
+.hightligth-content .title-1 {
+    font-size: 55px;
+    font-weight: 800;
+    padding-bottom: 50px;
+    color: #ffffff;
+}
+
+.hightligth-content .title-2 {
+    font-size: 23px;
+    font-weight: 700;
+    padding-bottom: 50px;
+    color: #fa7b57;
+}
+
+.hightligth-content .play-icon {
+    width: 71px;
+    height: 71px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.home-customer-reviews {
+    margin: 0 80px;
+    margin-bottom: 100px;
+}
+
+.home-customer-reviews .home-customer-reviews-title {
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.slideshow-container {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.slide {
+    background-color: #fa7b57;
+    border-radius: 4px;
+    width: 370px;
+    height: 413px;
+    padding: 35px 40px;
+    color: #ffffff;
+    font-family: sans-serif;
+}
+
+.quote-icon {
+    font-size: 50px;
+}
+
+.review-content {
+    font-size: 17px;
+    line-height: 1.4;
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+
+.avatar-nameauthor-rate-role {
+    display: flex;
+    flex-direction: row;
+}
+
+.nameauthor-rate-role {
+    display: flex;
+    flex-direction: column;
+}
+
+.avatar {
+    padding-right: 25px;
+}
+
+.avatar img {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.nameauthor {
+    font-size: 18px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+.nameauthor-rate-role .rate {
+    font-size: 22px;
+    color: #fed7c8;
+    padding-bottom: 10px;
+}
+
+.nameauthor-rate-role .role {
+    font-size: 18px;
+}
+
+.home-newsletter {
+    height: 377px;
+    width: 100%;
+    margin-bottom: 100px;
+    background-color: #f5f5f5;
+    padding: 90px 80px;
+    display: flex;
+    flex-direction: row;
+    font-family: sans-serif;
+}
+
+.browse-tour {
+    width: 60%;
+}
+
+.browse-tour-title {
+    font-size: 25px;
+    font-weight: 800;
+    padding-bottom: 35px;
+}
+
+.browse-tour-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.browse-tour-content span {
+    margin-bottom: 20px;
+    color: #fa7b57;
+    cursor: pointer;
+}
+
+.browse-tour-content-left {
+    display: flex;
+    flex-direction: column;
+    padding-right: 200px;
+}
+
+.browse-tour-content-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.newsletter {
+    width: 40%;
+    color: #8c8c8c;
+}
+
+.newsletter-title {
+    font-size: 25px;
+    font-weight: 800;
+    padding-bottom: 35px;
+    color: black;
+}
+
+.subcribe-title {
+    padding-bottom: 20px;
+}
+
+.form-subscribe {
+    display: flex;
+    flex-direction: row;
+    /* max-width: 300px;
+    margin: 0 auto; */
+    padding-bottom: 30px;
+}
+
+/* Định dạng phần nền của input text */
+.form-subscribe input[type="text"] {
+    width: 80%;
+    padding: 20px;
+    /* margin: 5px 0; */
+    font-size: 16px;
+    border: 1px solid white;
+    color: #aaaaaa;
+    border-radius: 3px;
+    background-color: #f5f5f5;
+}
+
+.form-subscribe input[type="text"]:focus {
+    outline: none;
+}
+
+/* Định dạng nút Submit */
+.form-subscribe input[type="submit"] {
+    background-color: #fa7b57;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: 800;
+}
+
+/* Định dạng nút Submit khi rê chuột qua */
+.form-subscribe input[type="submit"]:hover {
+    background-color: #c23811;
+}
+
+.contact {
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.contact span {
+    cursor: pointer;
+}
+
+
+.home-feature-in {
+    padding: 0 80px;
+    padding-bottom: 90px;
+}
+
+.feature-in-title {
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+    padding: 20px;
+}
+
+.say-about-us {
+    text-align: center;
+    color: #8c8c8c;
+    font-size: 17px;
+}
+
+.media-image {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    font-size: 17px;
+    padding-top: 40px;
+}
+
+.media-image div {}
+
+.media-image img {
+
+    width: 206px;
+    height: 89px;
+}

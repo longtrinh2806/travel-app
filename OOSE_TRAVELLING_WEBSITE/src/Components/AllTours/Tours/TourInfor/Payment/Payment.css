@@ -1,0 +1,149 @@
+.payment-content-up {
+    position: relative;
+}
+
+.payment-content-up-title {
+    position: absolute;
+    width: 100%;
+    top: 35%;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    color: white;
+}
+
+
+.container-payment {
+    padding: 32px 112px;
+    display: flex;
+    flex-direction: row;
+}
+
+.payment-content-left {
+    width: 67%;
+    height: fit-content;
+}
+
+
+.contact-details-title,
+.billing-details-title,
+.notes-title,
+.traveller-details-title {
+    font-size: 30px;
+    color: #000000;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    font-weight: 700;
+}
+
+.details-infor {
+    margin-bottom: 5px;
+    font-size: 17px;
+}
+
+.head {
+    float: left;
+    width: 140px;
+    font-weight: 500;
+    color: #646161;
+}
+
+.tail {
+    color: #999595;
+    display: block;
+    overflow: hidden;
+    font-weight: 500;
+}
+
+.contact-details-billing-details {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+
+.icon-file {
+    color: #f97150;
+    font-size: 20px;
+    margin-right: 10px;
+    margin-bottom: 6px;
+}
+
+.payment-content-left button {
+    margin-top: 50px !important;
+    background-color: #f97150 !important;
+    border: none !important;
+    font-weight: 600;
+    padding: 10px 50px !important;
+}
+
+.payment-content-left button:hover {
+    background-color: #ff987e !important;
+}
+
+.payment-content-right {
+    width: 37%;
+    margin: 0px 0px 0px 60px;
+    height: fit-content;
+    border: 1px solid #f4f4f4e1;
+    /* filter: blur(1rem); */
+    padding: 40px;
+    border-radius: 3px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    top: -100px;
+    position: relative;
+    background-color: #ffffff;
+}
+
+.title-tour {
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+.departureDate,
+.duration,
+.numberOfPeople,
+.numberOfRooms {
+    color: #a3a2a2;
+    padding-bottom: 10px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.departureDate span,
+.duration span,
+.numberOfPeople span,
+.numberOfRooms span {
+    color: #7d7a7a;
+    font-weight: 650;
+}
+
+.totalPrice {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.title-totalPrice {
+    color: #535151;
+    font-weight: 600;
+    font-size: 20px;
+
+}
+
+.icon-price {
+    margin-right: 10px;
+    color: #f97150;
+    font-size: 30px;
+}
+
+.number-title-totalPrice {
+    color: #000000;
+    font-size: 35px;
+    font-weight: 800;
+}
+
+.thunder-icon {
+    color: #f97150;
+    margin-bottom: 6px;
+    margin-right: 10px;
+}

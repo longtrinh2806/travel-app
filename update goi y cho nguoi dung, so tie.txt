@@ -1,0 +1,3 @@
+update goi y cho nguoi dung, so tien, so ngay.
+them actor
+ap dung AI
